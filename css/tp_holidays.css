@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Calligraffiti";
+  src: url("../fonts/Calligraffiti.ttf");
+}
+
+* {
+	box-sizing: border-box;
+	color: #222;
+}
+
+body {
+    background-color: #eee;
+    padding: 1em 8em;
+    line-height: 3;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Calligraffiti";
+    font-size: 1.2em;
+    color: #4DB0DC;
+}
+
+label {
+    display: block;
+    width: 45%;
+    margin: 1em auto;
+    font-family: arial;
+}
+
+button {
+    background-color: #4DB0DC;
+    padding: .3em;
+    border-radius: 10px;
+    border: 1px solid #222;
+    box-shadow: 1px 1px 3px #222;
+}
+
+#message {
+    margin-top: 2em;
+    font-family: "Calligraffiti";
+    font-size: 1.1em;
+    background-color: #ccc;
+    border-radius: 5px;
+}

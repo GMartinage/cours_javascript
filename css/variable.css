@@ -1,0 +1,54 @@
+* {
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+body {
+    background-color: #eee;
+    padding: 1em 8em;
+    line-height: 3;
+    text-align: center;
+}
+
+#varcontent {
+    margin-bottom: 1em;
+}
+
+#varcontent > p , #boolean, #boolean2 {
+    width: -moz-fit-content;
+    margin: .5em auto;
+    padding: .1em .5em;
+    border: 1px dashed purple;
+}
+
+#boolean, #boolean2 {
+    background-color: #729672;
+    border: 1px solid green;
+}
+
+#myarray, #myarray2, #myarray3, #myarray4, #myarray5 {
+    width: -moz-fit-content;
+    margin: .5em auto;
+    clear: both;
+}
+
+#myarray > p, #myarray2 > p, #myarray3 > p, #myarray4 > p, #myarray5 > p {
+    float: left;
+    margin-top: .5em;
+    background-color: #967296;
+    padding: .3em 1.2em;
+    border: 1px solid purple;
+}
+
+#myarray > p:first-child, #myarray2 > p:first-child, #myarray3 > p:first-child,
+#myarray4 > p:first-child {
+    border-right: none;
+}
+
+#myarray > p:last-child, #myarray2 > p:last-child, #myarray3 > p:last-child,
+#myarray4 > p:last-child, #myarray5 > p:last-child {
+    border-left: none;
+}

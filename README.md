@@ -1,1 +1,1 @@
-# cours w/Daishi : Apprendre JavaScript
+# Cours w/Daishi : Apprendre JavaScript

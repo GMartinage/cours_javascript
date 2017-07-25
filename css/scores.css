@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+body {
+    background-color: #eee;
+    padding: 1em 8em;
+    line-height: 3;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    margin: 1em auto;
+    padding: 1em;
+    background-color: #E49FF1;
+}
+
+td {
+    padding: .5em;
+    border: 1px solid purple;
+    font-size: .9em;
+}

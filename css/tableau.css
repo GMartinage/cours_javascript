@@ -1,0 +1,15 @@
+* {
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+	padding: 0;
+	color: #222;
+}
+
+body {
+    background-color: #eee;
+    padding: 1em 8em;
+    line-height: 3;
+    text-align: center;
+}
+
